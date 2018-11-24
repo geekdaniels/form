@@ -1,6 +1,6 @@
 <?php
 
-require_once '/database.php';
+require_once 'database.php';
 
 class Processpanel{
 
@@ -46,6 +46,10 @@ class Logic extends Processpanel
   }
  }
 
+ public function listPosts(){
+
+  require_once 'form.php';
+ }
 
  /**
      * @return bool
@@ -61,13 +65,13 @@ class Logic extends Processpanel
   if(empty($post['title'])){
    $errors[] = 'The Title field is empty';
    $errors = implode(",", $errors);
-   header("Location: http://localhost/lotus/api/process.php?error=$errors&action=create");
+   header("Location: http://localhost/lotus/index.php?error=$errors&action=create");
    return false;
   }
   if (empty($post['content'])) {
    $errors[] = 'The Description field is empty';
    $errors = implode(",", $errors);
-   header("Location: http://localhost/lotus/api/process.php?error=$errors&action=create");
+   header("Location: http://localhost/lotus/index.php?error=$errors&action=create");
    return false;
   }
   else {
@@ -139,12 +143,12 @@ class Logic extends Processpanel
       echo $e->getMessage();
      }
 
-     $status = 'Your post has been saved successfully.';
-     header("Location: http://localhost/bootcamp/author/posts.php?$status");
+     $status = 'Your data has been Submitted successfully.';
+     header("Location: http://localhost/lotus/index.php?$status");
 
     } else {
-     $status = 'There has been an error saving your post. Please try again later.';
-     header("Location: http://localhost/bootcamp/author/posts.php?action=create");
+     $status = 'There has been an error saving. Please try again.';
+     header("Location: http://localhost/lotus/index.php.php?action=create");
     }
 
 
@@ -158,7 +162,7 @@ class Logic extends Processpanel
  }
 
 public function addPost(){
-  require_once '../index.php';
+  require_once 'form.php';
  }
 
 }
