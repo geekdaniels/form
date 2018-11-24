@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+:root {
+  --input-padding-x: .75rem;
+  --input-padding-y: .75rem;
+}
+
+
+body{
+ --font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar-dark {
+ background-color: #303030;
+ font-size: 12px;
+}
+.navbar-dark button {
+    font-size: 12px;
+}
+p{
+ font-size: 18px;
+ color: #4F4F4F;
+}
+.btn-default {
+    color: #f3f2f2;
+    background-color: #3eb75a;
+    border-color: #5a8849;
+}
+
+.color_one{
+ color: #3EB75A !important;
+}
+p.red{
+ color: red !important;
+}
+.bg_color_one{
+ background-color: #3EB75A;
+}
+.btn-def {
+ background-color: #3EB75A !important;
+ color: #FFFFFF;
+}
+.bg_color_three {
+ background-color: #219653;
+}
+.color_two{
+ color: #A8A8A8;
+}
+.color_three{
+ color: #C4C4C4;
+}
+.bold-1{
+ font-weight: bold;
+ font-size: 36px;
+}
+.bold-2{
+ font-weight: 550;
+}
+.footer {
+ font-size: 14px;
+}
+
+.hr_colored {
+ color: #828282 !important;
+ background-color: #828282 !important;
+ height: 1px;
+}
+
+.disclaimer_p{
+ font-size: 12px;
+}
+
+.navbar-brand > img{
+ vertical-align: baseline;
+}
+.color_two {
+color:#4f4f4f
+}
+.desclaimer_col {
+ color: #A8A8A8;
+}
+/* Styles for FAQs page */
+
+.faq p{
+ font-size: 16px;
+ line-height: 44px;
+ font-family: 'Poppins', sans-serif !important;
+}
+
+.faq body a {
+ cursor: pointer;
+ color: #4B4B4B;
+ text-decoration: none;
+ font-family: 'Poppins', sans-serif !important;
+}
+
+
+span {
+ letter-spacing: 0px;
+}
+
+.faq p {
+ font-weight: 200;
+ line-height: 1.5;
+ font-size: 14px;
+}
+
+.collapse {
+padding-left: 30px;
+}
+/* Styles for Accordion */
+.toggle .toggle-title {
+ position: relative;
+ display: block;
+ margin-bottom: 6px;
+}
+.toggle .toggle-title h3 {
+ font-size: 20px;
+ margin: 0px;
+ line-height: 1;
+ cursor: pointer;
+ font-weight: 200;
+}
+.toggle .toggle-inner {
+ padding: 7px 25px 10px 25px;
+ display: none;
+ margin: -7px 0 6px;
+}
+
+.toggle .toggle-title .title-name {
+ display: block;
+ padding: 25px 25px 14px;
+ font-size: 16px;
+ font-weight: 550;
+}
+.toggle .toggle-title a i {
+ font-size: 22px;
+ margin-right: 5px;
+}
+.toggle .toggle-title i {
+ position: absolute;
+ background: url("http://arielbeninca.com/Storage/plus_minus.png") 0px -24px no-repeat;
+ width: 24px;
+ height: 24px;
+ transition: all 0.3s ease;
+ margin: 20px;
+ right: 0;
+}
+
+
+
+/*Other Styles*/
+
+
+.navbar-dark {
+ background-color: #303030;
+ font-size: 12px;
+}
+.navbar-dark button {
+    font-size: 12px;
+}
+.hh{
+ font-size: 36px;
+ color: #3eb75a;
+}
+
+.pp{
+ font-size: 20px;
+ color: white;
+}
+.pp1{
+ font-size: 20px;
+ color: #3eb75a;
+}
+
+.ml{
+ margin-left: -258px;
+}
+
+.btn-default {
+ color: #f3f2f2;
+ background-color: #3eb75a;
+ border-color: #5a8849;
+}
+
+
+
+.hh1{
+ color: #3eb75a;
+}
+
+.tc{
+ text-align: -webkit-center;
+}
+
+.iw{
+ width: 140px;
+}
+.iw1{
+ width: 98px;
+}
+.iw2{
+ width: 100px;
+}
+
+
+.bggroup10{
+ background-image: url(img/LoanlyAssets/keypad.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 350px;
+}
+.iw3{
+ width: 60px;
+}
+
+.wc{
+ color: white;
+}
+
+.wc1{
+ color: #fdeeee;
+ font-size: 13px;
+}
+
+
+.cmput {
+ border-radius: 5px;
+ background-color: #E5E5E5;
+ opacity: 0.4;
+ color: #000000;
+}
+.form-control {
+    height: auto !important;
+}
+
+
+.cmput1 {
+ padding: 12px 528px 107px 18px;
+ font-size: 21px;
+ border: solid #e7e8e9;
+ border-radius: 7px;
+ background-color: #e6e7e8ed;
+}
+
+.cmput2 {
+ padding: 7px 500px 10px 19px;
+ font-size: 21px;
+ border: solid #e7e8e9;
+ border-radius: 7px;
+ background-color: #e6e7e8ed;
+}
+
+
+.btn-default2 {
+ color: #f3f2f2;
+ background-color: #3eb75a;
+ margin-top: 21px;
+ padding: 4px 118px;
+ font-size: 24px;
+}
+
+
+.clipath {
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+ clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 89%);
+}
+
+.modal-title1 {
+ line-height: 1.42857143;
+ margin: 146px;
+}
+
+.bb {
+ border-bottom: 2px solid #bbbba9;
+ width: 425px;
+ margin-bottom: 22px;
+ margin-top: 31px;
+}
+
+
+.modal-content1 {
+ position: relative;
+ background-color: #114824de;
+ -webkit-background-clip: padding-box;
+ background-clip: padding-box;
+ border: 1px solid #999;
+ border: 1px solid rgba(0, 0, 0, .2);
+ border-radius: 29px;
+ outline: 0;
+}
+
+
+.modal-header1 {
+ /* padding: 15px 20px 0px; */
+ /* border-bottom: 1px solid #e5e5e5; */
+ margin: 23px 8px -27px 24px;
+}
+
+
+.modal-body1 {
+ position: relative;
+ padding: 93px;
+ color: white;
+}
+
+.ms{
+ color: #15b95ff0;
+ font-size: 22px;
+ margin-top: -37px;
+}
+
+
+.close1 {
+ float: right;
+ font-size: 25px;
+ /* font-weight: bold; */
+ line-height: 1;
+ color: #fff9;
+ text-shadow: 0 1px 0 #fff;
+ filter: alpha(opacity=20);
+ opacity: 1.2;
+}
+
+.mrr {
+ margin-left: 129px;
+}
+
+.tcc{
+ list-style-type:none;
+ font-size: 11px;
+ color: #2b2b2b;
+ line-height: 20px;
+ padding-left: 0;
+}
+
+.bbbtn{
+ background-color: #419441;
+ color: white;
+ font-size: 12px !important;
+}
+
+
+/*Floating Labels*/
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
